@@ -16,17 +16,17 @@
     <!-- style.css-->
     <link rel="stylesheet" href="static/css/style.css">
 </head>
-<body>
+<body class="bg-dark">
     <!-- wrapper -->
     <div class="wrapper">
         <!-- add a new component: a nav tag -->
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
             <!-- add link -->
             <a class="navbar-brand" href="index.html">UFO Sightings</a>
         </nav>
         <!-- add jumbotron-->
         <div class="jumbotron">
-            <h1>The Truth Is Out There</h1>
+            <h1 class="display-4">The Truth Is Out There</h1>
         </div>
         <!-- Add the Article Title and Paragraph -->
         <div class="container-fluid">
@@ -45,18 +45,18 @@
             <div class="row">
                 <!-- form: accepting user input -->
                 <div class="col-md-3">
-                    <form>
+                    <form class="bg-dark" style="font-family: inherit; font-size: 1rem;">
                         <p>Filter Search</p>
                     </form>
-                    <ul class="list-group">
+                    <ul class="list-group bg-dark" style="font-family: inherit; font-size: 1rem;">
                         <!-- filter setup to search by date -->
-                        <li class="list-group-item">
+                        <li class="list-group-item bg-dark" style="font-family: inherit; font-size: 1rem;">
                             <label for="date">Enter Date</label>
                             <input type="text" placeholder="1/10/2010" id="datetime" />
                         </li>
                         <!-- button tag -->
-                        <li class="list-group-item">
-                            <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
+                        <li class="list-group-item bg-dark" style="font-family: inherit; font-size: 1rem;">
+                            <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button>
                         </li>
                     </ul>
                 </div>
@@ -82,5 +82,10 @@
             </div>
         </div>
     </div>
+
+    <!-- add js script -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+    <script type="text/javascript" src="js/data.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
