@@ -26,3 +26,30 @@ function buildTable(data) {
         cell.text(val);
     });
 }
+
+function handleClick() {
+    //create a couple of variables to hold our date data, both filtered and unfiltered.
+    let date = d3.select("#datetime").property("value");
+    //need to set a default filter and save it to a new variable
+    //By setting the filteredData variable to our raw data, we're basically using it as a blank slate.
+    let filteredData = tableData;
+
+    /// Check to see if a date was entered and filter the
+    // data using that date.
+    if(date) {
+        // Apply `filter` to the table data to only keep the
+        // rows where the `datetime` value matches the filter value
+        filteredData = filteredData.filter(row => row.datetime === date);
+
+        // Rebuild the table using the filtered data
+        // @NOTE: If no date was entered, then filteredData will
+        // just be the original tableData.
+        buildTable(filteredData);
+    }
+}
+
+//Add event listener (Attach an event to listen for the form button)
+d3.selectAll("#filter-btn").on("click", handleClick);
+
+//Build final table (call buildTable) when the page loads
+buildTable(tableData);
