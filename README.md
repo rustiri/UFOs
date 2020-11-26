@@ -9,7 +9,7 @@ The purpose of this project is to visualize UFOs sightings based on the data pro
 ## Project Description
 There is different folder that were used to analyze and filter data:
 * UFO_1 folder contains files that only filters by date with Filter Search button
-* UFO_2 folder contains files that have multiple filter and filter out the table by typing in the input box
+* UFO_2 folder contains files that have multiple filters and filter data by typing in the input box
 
 
 ## Sample of Dynamic Webpages
