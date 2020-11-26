@@ -1,7 +1,7 @@
 # UFOs Sightings Visualization - JavaScript
 
 ## Overview of Project
-The purpose of this project is to visualize UFOs sightings based on the data provide (js/data.js) and create dynamic webpages with the following tasks to complete:
+The purpose of this project is to visualize UFOs sightings based on the data provided (js/data.js) and create dynamic webpages with the following tasks to complete:
 * Accept user inputs and adjust accordingly
 * Built by inserting JavaScript into HTML page
 
