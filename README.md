@@ -24,7 +24,7 @@ UFO_2:
 ![alt text](Screenshots/multiple_filter.png)
 
 ## Summary
-Based on the new design in UFO_2 sample, there is one drawback. The drawback was the user is asked to type in the input box to filter the data. 
+Based on the new design in UFO_2 sample, there is one drawback. The drawback was the user is being asked to type in the input box to filter the data. 
 
 For further development, two recommendations that can be done are we can use a checkbox and dropdown selection to filter the data.
 
