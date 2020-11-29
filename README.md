@@ -7,7 +7,7 @@ The purpose of this project is to visualize UFOs sightings based on the data pro
 
 
 ## Project Description
-There is different folder that were used to analyze and filter data:
+There are different folder that were used to analyze and filter data:
 * UFO_1 folder contains files that only filters by date with Filter Search button
 * UFO_2 folder contains files that have multiple filters and filter data by typing in the input box
 
@@ -27,4 +27,7 @@ UFO_2:
 Based on the new design in UFO_2 sample, there is one drawback. The drawback was the user is being asked to type in the input box to filter the data. 
 
 For further development, two recommendations that can be done are we can use a checkbox and dropdown selection to filter the data.
+
+For example, when typing the city name: suggestions would pop up and when chosen 
+
 
