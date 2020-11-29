@@ -28,6 +28,6 @@ Based on the new design in UFO_2 sample, there is one drawback. The drawback was
 
 For further development, two recommendations that can be done are we can use a checkbox and dropdown selection to filter the data.
 
-For example, when typing the city name: suggestions would pop up and when chosen 
+For example, when typing the city name: suggestions would pop up and when chosen the remaining fields would automatically populate with the correct information.
 
 
